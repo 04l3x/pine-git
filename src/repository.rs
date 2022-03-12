@@ -1,7 +1,6 @@
 use super::tree::Tree;
 use error::Result;
 use git2;
-use git2::{TreeWalkMode, TreeWalkResult};
 use std::{
 	env,
 	path::{Path, PathBuf},
